@@ -16,11 +16,13 @@ The most challenging part of the report was compiling all of the static testing 
 
 ### How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
-h
+The mitigation plan I decided to go with included the general best practices such as updating all packages to the latest version, continuing to keep them up to date, and always implementing their system code in the most secure ways possible. This includes input validation/sanitization, using secure libraries, and separating each component into its own capsule to lower the risk of outside manipulation.
+
+Other techniques recommended included monitoring system logs, using multiple or secure layers of authentication, security testing, and employee education on security best practices. All of these extra layers will heavily mitigate any vulnerabilities, but will not completely erase the possibility of a breach. In the future, I would assess vulnerabilities in a similar way, and adapt mitigation techniques to the industry, business, and situation that is at hand, because every organization has its own needs and circumstances.
 
 ### How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 
-h
+This was a vulnerability assessment, meaning that if anything I identified areas that the code was not functional and secure. However, I did make recommendations to ensure the intended functionality and security of the code, which included input validation, APIs, cryptography, and encapsulation. These along with others would create a structure that would keep the flow of information between each component as limited as is required, keeping room for new vulnerabilities at a minimum.
 
 ### What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 
